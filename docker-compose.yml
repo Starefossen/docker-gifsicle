@@ -1,0 +1,6 @@
+build:
+    build: build/
+    working_dir: /build
+    volumes:
+        - ./build/:/build
+    entrypoint: /build/build.sh
