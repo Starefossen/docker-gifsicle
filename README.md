@@ -46,7 +46,8 @@ This Docker image is licensed under the [MIT License](https://github.com/Starefo
 
 Software contained in this image is licensed under the following:
 
-* gifsicle: [GNU GPL v2](https://github.com/kohler/gifsicle/blob/master/COPYING)
+* Gifsicle: [GNU GPL v2](https://github.com/kohler/gifsicle/blob/master/COPYING)
+* FFmpeg: [GNU LGPL v2.1](https://github.com/FFmpeg/FFmpeg/blob/master/LICENSE.md)
 
 ## Supported Docker versions
 
@@ -60,6 +61,7 @@ Support for older versions (down to 1.0) is provided on a best-effort basis.
 
 * [Docker](http://docs.docker.com)
 * [Gifsicle](http://www.lcdf.org/gifsicle/)
+* [FFmpeg](http://ffmpeg.org)
 
 ### Issues
 
