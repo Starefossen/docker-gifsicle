@@ -1,10 +1,10 @@
 # GIFSICLE insert into blank Debian to minimze image size
 
 FROM debian:wheezy
-MAINTAINER Nachochip <hans@starefossen.com>
+MAINTAINER Hans Kristian Flaatten <hans@starefossen.com>
 
 
-ADD   build/gifsicle.tar.gz   /usr/local/bin/
+ADD   gifsicle.tar.gz   /usr/local/bin/
 
 
 CMD           ["--help"]
