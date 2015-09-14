@@ -7,7 +7,7 @@ and animations
 
 * [`latest` (Dockerfile)](https://github.com/Starefossen/docker-gifsicle/blob/master/Dockerfile)
 * [`ffmpeg` (Dockerfile)](https://github.com/Starefossen/docker-gifsicle/blob/master/ffmpeg/Dockerfile)
-* [`1.88` (Dockerfile)](https://github.com/Starefossen/docker-gifsicle/blob/1.88/Dockerfile)
+* [`1.88` (Dockerfile)](https://github.com/Starefossen/docker-gifsicle/blob/v1.88/Dockerfile)
 
 ## What is Gifsicle
 
