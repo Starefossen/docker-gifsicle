@@ -62,7 +62,7 @@ Support for older versions (down to 1.0) is provided on a best-effort basis.
 
 * [Docker](http://docs.docker.com)
 * [Gifsicle](http://www.lcdf.org/gifsicle/)
-* [FFmpeg](http://ffmpeg.org)
+* [FFmpeg](http://ffmpeg.org/documentation.html)
 
 ### Issues
 
