@@ -13,7 +13,4 @@ curl -SLO ${GIFSICLE_URL} \
   && cd "gifsicle-${GIFSICLE_VERSION}" \
   && autoreconf -i \
   && ./configure --disable-gifview \
-  && make \
-  && tar -cvzf ../gifsicle.tar.gz -C src gifsicle gifdiff \
-  && cd .. \
-  && rm -rf "gifsicle-${GIFSICLE_VERSION}" "v${GIFSICLE_VERSION}.tar.gz"
+  && make
