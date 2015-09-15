@@ -80,3 +80,23 @@ issue](https://github.com/Starefossen/docker-gifsicle/issues), especially
 for more ambitious contributions. This gives other contributors a chance to
 point you in the right direction, give you feedback on your design, and help
 you find out if someone else is working on the same thing.
+
+## Build
+
+Building new versions of the Gifsicle binary for the `starefossen/gifsicle`
+Docker Image is done using the [`/build`
+container](/Starefossen/docker-gifsicle/blob/master/build/Dockerfile) in this
+repository. The [`build.sh`](/Starefossen/docker-gifsicle/blob/master/build.sh)
+script does most of the heavy lifting.
+
+You need [Docker Compose](https://github.com/docker/compose) installed for the
+build script to work correctly.
+
+```
+$ ./build x.yy
+```
+
+### Release
+
+Releasing new versions Docker Hub is a matter for adding the newly generated
+`gifsicle.tar.tz` archives and adding the version tag to Docker Hub.
