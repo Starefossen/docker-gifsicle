@@ -31,15 +31,18 @@ specific use case in mind.
 
 `starefossen/gifsicle:latest`
 
-@TODO
+This is the bleeding edge latest version of the image. You should use this under
+active development, but not for stable production usage.
 
 `starefossen/gifsicle:<version>`
 
-@TODO
+This is the locked down version of the image. If comes in two variants;
+`:<major>` and `:<major>.<minor>` versions of Gifsicle.
 
 `starefossen/gifsicle:ffmpeg`
 
-@TODO
+This is a image with latest version of ffmpeg installed. This is based on the
+[nachochip/ffmpeg](https://github.com/nachochip/ffmpeg) Docker Image.
 
 ## License
 
@@ -83,9 +86,9 @@ you find out if someone else is working on the same thing.
 
 ## Build
 
-Building new versions of the Gifsicle binary for the `starefossen/gifsicle`
-Docker Image is done using the [`/build` container](/build/Dockerfile) in this
-repository. The [`build.sh`](/build.sh) script does most of the heavy lifting.
+Building new versions of the Gifsicle binary for the image is done using the
+[`/build` container](/build/Dockerfile) in this repository. The
+[`build.sh`](/build.sh) script does most of the heavy lifting for this process.
 
 You need [Docker Compose](https://github.com/docker/compose) installed for the
 build script to work correctly.
