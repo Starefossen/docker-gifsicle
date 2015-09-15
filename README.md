@@ -84,10 +84,8 @@ you find out if someone else is working on the same thing.
 ## Build
 
 Building new versions of the Gifsicle binary for the `starefossen/gifsicle`
-Docker Image is done using the [`/build`
-container](/Starefossen/docker-gifsicle/blob/master/build/Dockerfile) in this
-repository. The [`build.sh`](/Starefossen/docker-gifsicle/blob/master/build.sh)
-script does most of the heavy lifting.
+Docker Image is done using the [`/build` container](/build/Dockerfile) in this
+repository. The [`build.sh`](/build.sh) script does most of the heavy lifting.
 
 You need [Docker Compose](https://github.com/docker/compose) installed for the
 build script to work correctly.
