@@ -4,6 +4,8 @@ The `starefossen/gifsicle` Image provides a Docker Image for
 [Gifsicle](http://www.lcdf.org/gifsicle/) - create, manipulate, and optimize GIF
 images and animations.
 
+![Demo using Gifsicle on Docker](/assets/demo.gif)
+
 ## Supported tags and respective `Dockerfile` links
 
 * [`latest` (Dockerfile)](https://github.com/Starefossen/docker-gifsicle/blob/master/Dockerfile)
